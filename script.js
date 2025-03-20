@@ -1,4 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Log CSS version to verify it's loading correctly
+    console.log('CSS loaded - Logo width should be 200px');
+    const logoImg = document.querySelector('.logo img');
+    if (logoImg) {
+        console.log('Actual logo width:', window.getComputedStyle(logoImg).width);
+    }
+
     // Smooth scrolling for navigation links
     const navLinks = document.querySelectorAll('nav a');
     
