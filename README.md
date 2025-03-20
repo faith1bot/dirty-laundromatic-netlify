@@ -90,4 +90,5 @@ The API integration includes fallback mechanisms:
 
 ## License
 
-MIT License - Feel free to use and modify as needed.
+All Rights Reserved - Copyright 2025 Dirty Laundromatic
+This code is private and not licensed for redistribution or use without explicit permission.
