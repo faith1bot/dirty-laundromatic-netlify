@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="120" viewBox="0 0 480 120">
+  <style>
+    .logo-text { font-family: Arial, sans-serif; font-weight: bold; }
+    .primary-text { fill: #ffffff; }
+    .accent-text { fill: #f8ff00; }
+    .icon-bg { fill: #ff00ff; }
+  </style>
+  
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="40" class="icon-bg" />
+  
+  <!-- Text elements -->
+  <text x="130" y="70" class="logo-text primary-text" font-size="48">Dirty</text>
+  <text x="130" y="110" class="logo-text primary-text" font-size="36">Laundromatic</text>
+  <text x="420" y="110" class="logo-text accent-text" font-size="28">FM</text>
+</svg>

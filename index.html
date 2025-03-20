@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dirty Laundromatic - Online Radio Stream</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="chatbot.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="description" content="Dirty Laundromatic - An independent online radio station streaming the freshest cuts and deepest grooves 24/7.">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="logo.png" alt="Dirty Laundromatic Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home" class="hero">
+                <div class="hero-content">
+                    <h1>Dirty Laundromatic</h1>
+                    <p class="tagline">Rinse, Spin & Repeat</p>
+                    <div class="player-container">
+                        <iframe
+                            title="Dirty Laundromatic audio player"
+                            src="https://app.radiocult.fm/embed/player/dirty-laundromatic?theme=midnight&primaryColor=%23f8ff00&corners=rounded&playerDisplay=metadata&autoplay=1"
+                            scrolling="no"
+                            frameborder="0"
+                            allow="autoplay"
+                            seamless
+                            allowtransparency="true"
+                            class="player-iframe"
+                        ></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="about">
+                <h2>About The Station</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Dirty Laundromatic is an online radio station streaming the freshest Breaks and Basslines 24/7. We got a basket load of Drum & Bass, Jungle, UKG, Breakbeat, 140bpm, Deep Dub & House Music bangers, airing it out and spinning all the good stuff.</p>
+                        <p>Founded in 2025, our mission is to bring you music that moves you and the neighbors.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="schedule" class="schedule">
+                <h2>Broadcast Schedule & Chat</h2>
+                <div class="dual-container">
+                    <div class="dual-item schedule-embed">
+                        <iframe
+                          title="Dirty Laundromatic schedule"
+                          src="https://app.radiocult.fm/embed/schedule/dirty-laundromatic/weekly?theme=midnight&primaryColor=%2384D8F9&corners=rounded"
+                          width="100%"
+                          height="600px"
+                          scrolling="no"
+                          frameborder="0"
+                          seamless
+                          allowtransparency="true"
+                          class="embed-iframe"
+                        ></iframe>
+                    </div>
+                    <div class="dual-item chat-embed">
+                        <iframe
+                          title="Dirty Laundromatic chat room"
+                          src="https://app.radiocult.fm/embed/chat/dirty-laundromatic?theme=midnight&primaryColor=%23fae200&corners=rounded"
+                          width="100%"
+                          height="600px"
+                          scrolling="no"
+                          frameborder="0"
+                          seamless
+                          allowtransparency="true"
+                          class="embed-iframe"
+                        ></iframe>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="contact">
+                <h2>Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <p>Want to share your music or collaborate? We'd love to hear from you!</p>
+                        <a href="mailto:hello@dirtylaundromatic.fm" class="contact-button">Email Us</a>
+                        <div class="social-links">
+                            <a href="#" class="social-icon" aria-label="Instagram" title="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon" aria-label="Twitter" title="Follow us on Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon" aria-label="SoundCloud" title="Listen on SoundCloud"><i class="fab fa-soundcloud"></i></a>
+                            <a href="#" class="social-icon" aria-label="Mixcloud" title="Listen on Mixcloud"><i class="fab fa-mixcloud"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2025 Dirty Laundromatic. All rights reserved.</p>
+                <p>Designed with <i class="fas fa-heart heart-icon"></i> for music lovers</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="mock-data.js"></script>
+    <script src="radiocult-api.js"></script>
+    <script src="chatbot.js"></script>
+    <!-- Uncomment this for API testing -->
+    <!-- <script src="api-test.js"></script> -->
+</body>
+</html>
