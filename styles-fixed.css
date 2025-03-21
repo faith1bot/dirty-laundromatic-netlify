@@ -274,10 +274,34 @@ h2::after {
     line-height: 1.8;
 }
 
-/* Schedule Section */
+/* Schedule and Chat Section */
 .schedule {
-    padding: 60px 20px;
-    background-color: rgba(25, 25, 25, 0.6);
+    padding: 50px 0;
+    background-color: #181818;
+}
+
+.dual-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 30px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+.dual-item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    background-color: #1e1e1e;
+}
+
+.embed-iframe {
+    width: 100%;
+    height: 600px;
+    border: none;
 }
 
 .schedule-content {
@@ -347,6 +371,13 @@ h2::after {
     width: 100%;
     height: 100%;
     border: none;
+}
+
+/* Responsive adjustments for the dual container */
+@media (max-width: 768px) {
+    .dual-container {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* Contact Section */
