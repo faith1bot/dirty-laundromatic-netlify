@@ -298,6 +298,20 @@ h2::after {
     background-color: #1e1e1e;
 }
 
+.dual-item.schedule-embed {
+    height: 144px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.audio-player-iframe {
+    background-color: transparent;
+    border-radius: 0.75rem;
+    width: 100%;
+    height: 144px;
+}
+
 .embed-iframe {
     width: 100%;
     height: 600px;
