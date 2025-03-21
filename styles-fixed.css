@@ -299,10 +299,17 @@ h2::after {
 }
 
 .dual-item.schedule-embed {
-    height: 144px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.schedule-iframe {
+    background-color: transparent;
+    border-radius: 0.75rem;
+    width: 600px;
+    height: 500px;
 }
 
 .audio-player-iframe {
@@ -391,6 +398,18 @@ h2::after {
 @media (max-width: 768px) {
     .dual-container {
         grid-template-columns: 1fr;
+    }
+    
+    .schedule-iframe {
+        width: 100%;
+        max-width: 600px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 480px) {
+    .schedule-iframe {
+        height: 400px;
     }
 }
 
